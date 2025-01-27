@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black:#000000;
+    --white:#fff;
+    --green:rgba(76, 175, 80, 1);
+    --blue:rgba(3, 172, 242, 1);
+    --grey:#333;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 52px;
+    color: var(--black);
+    text-decoration: none;
+}
+p{
+    font-size: 25px;
+    color: var(--black);
+}
+.container{
+    width: 1920px max-content;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.Head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black);
+    padding: 0 80px;
+    line-height: 21.4px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+}
+.logo img{
+    width: 54px;
+    height: auto;
+    padding-left: 10px;
+}
+.logo-text{
+    font-size: 30px;
+    font-weight: 700;
+    width: 127px;
+    height: auto;
+    padding-left: 10px;
+}
+.main-navi ul {
+    list-style: none;
+    display: inline-flex;
+    inline-size: max-content;
+    gap: 60px;
+}
+.main-navi a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.main-navi ul li a:hover{
+    color: rgba(3, 172, 242, 1);
+    border-bottom: 1px solid;
+}
+.authentication{
+    display: flex;
+    padding-right: 32px;
+    padding-top: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+div.authentication::after{
+    content: '';
+    background: url('../Assest/Header/Oval\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 1400px;
+    height: 1310px;
+    top: -200%;
+    left: -150%;
+    right: 0;
+    z-index: -1;
+}
+.btn{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    position: relative; 
+    font-size: 20px;
+    line-height: 28.8px;
+    transition: all ease-in-out 0.4s;
+    font-weight: 200;
+    text-decoration: none;
+}
+.white_btn{
+    background-color:linear-gradient(142.77deg, #C8E6C9 15.84%, #B3E5FC 85.86%);
+    padding: 11px 12px 11px 12px;
+    color: black;
+    font-size: 19px;
+    border: none;
+}
+.blue_btn{
+    background: rgba(76, 175, 80, 1);
+    border-radius: 50px;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 16px;
+}
+.line{
+    height: auto;
+    color: rgb(0 0 0 / 10%);
+    width: 2px;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+.icon{
+    padding-top: 12px;
+    font-weight: 100;
+    font-size: 30px;
+    padding-left: 12px;
+    color: rgba(0, 0, 0, 0.54);
+}

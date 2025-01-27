@@ -1,0 +1,64 @@
+section.clinic_section{
+    padding-left: 112px;
+    padding-right: 178px;
+}
+.clinic{
+  
+    margin: 90PX 170PX 0 112PX;
+}
+.clinic h2{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.clinic:first-child{
+    color: var(--lightgrey);
+    text-align: left;
+}
+.clinic-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 90px;
+    margin-top: 20px;
+}
+.clinic-card{
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--black);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+}
+.clinic-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.clinic_des{
+    padding-left: 5px;
+}
+.clinic-card h2 {
+    color: var(--black);
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: left;
+}
+.clinic-card p {
+    color: var(--lightgrey);
+    margin: 5px 0;
+    font-size: 18px;
+    text-align: left;
+}
+.clinic-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: var(--white);
+    background: var(--green);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.clinic-card button:hover {
+    background: #008c47;
+}

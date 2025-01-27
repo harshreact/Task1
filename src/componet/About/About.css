@@ -1,0 +1,117 @@
+.Herobanner{
+    width: 100%;
+    position: relative;
+}
+.Banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    align-items: center;
+}
+
+.Hero_text{
+    padding-left: 111px;
+
+    padding-top: 20px;
+}
+.Hero_text h1{
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+.Hero_text p{
+    font-size: 32px;
+    color: gray;
+    padding-bottom: 30px;
+}
+.btn{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    position: relative; 
+    font-size: 24px;
+    line-height: 28.8px;
+    transition: all ease-in-out 0.4s;
+    font-weight: 500;
+}
+.more_info{
+    background-color: white;
+    color: green;
+    text-decoration: none;
+    padding: 13px 35px 13px 35px;
+}
+.register_now{
+    background-color: rgba(3, 172, 242, 1);
+    border-radius: 20px;
+    color: white;
+    padding: 13px 35px 13px 35px;
+    text-decoration: none;
+}
+.Hero_photo img{
+    width: 669px;
+    height: auto;
+    margin-right: 0;
+}
+.services{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-around;
+    gap: 10px;
+    margin-left: 212px;
+    margin-right: 160px;
+}
+.features h2{
+    font-size: 28px;
+}
+.features:hover{
+    color: rgba(0, 87, 155, 1);
+    border-bottom: 2px solid;
+}
+.features p{
+    font-size: 18px;
+    padding-top: 8px;
+    color: black;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+.count_section{
+    align-content: center;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: 156.5px;
+    margin-right: 156.5px;
+}
+.count_data{
+    width: 340px;
+    height: 176px;
+}
+.count_main{
+    width: 349px;
+    height: 165px;
+}
+.text{
+    padding-top: 0;
+    text-align: center;
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.87);
+}
+.count_box{
+    display: flex;
+}
+.count-icon{
+    font-size: 90px;
+    font-weight: 700;
+    padding-right: 60px;
+    padding-left: 30px;
+    color: rgba(3, 172, 242, 1);
+}
+.num{
+    color:rgba(53, 122, 56, 1);
+    font-size: 48px;
+    font-weight: 700;
+}
+.type{
+    font-size: 36px;
+    font-weight: 700;
+}

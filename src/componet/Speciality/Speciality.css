@@ -1,0 +1,43 @@
+.Specification{
+    display: flex;
+    padding-left: 112px;
+    padding-right: 120px;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.Specification_content{
+    padding-right: 20px;
+}
+.padded_h2{
+    padding-top: 110px;
+}
+.Specification_content p{
+    padding-top: 25px;
+}
+.special{
+    padding-top: 30px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.special_line1{
+    border-radius: 50px;
+    border: 1px solid;
+    padding:7px 24px 7px 24px;
+    font-size: 14px;
+    background-color: var(--white);
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.special_line2{
+    border-radius: 50px;
+    border: none;
+    padding:6px 10px 8px 10px;
+    font-size: 14px;
+    background-color: var(--blue);
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+.Specification_img{
+    padding-left: 120px;
+}

@@ -1,0 +1,125 @@
+.footer_section{
+    padding: 190px 151px 0 111px;
+    margin-bottom: -100px;
+    position: relative;
+}
+section.footer_section::after {
+    content: '';
+    position: absolute;
+    background: url('../Assest/Footer/Oval.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 691px;
+    height: 691px;
+    top: -30%;
+    left: 0;
+    bottom: -20%;
+    z-index: -3;
+}
+div.footer_container::after {
+    content: '';
+    position: absolute;
+    background: url('../Assest/Footer/circle.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 838px;
+    height: 837px;
+    top: -200%;
+    left: -10%;
+    z-index: -1;
+}
+.footer_container{
+    width: 1920px max-content;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    padding-right: 0;
+    display: inline-block;
+}
+.logo img{
+    width: 54px;
+    height: auto;
+    padding-left: 10px;
+}
+.logo-text{
+    font-size: 30px;
+    font-weight: 700;
+    width: 127px;
+    height: auto;
+    padding-left: 10px;
+}
+.logo p{
+    padding-top: 50px;
+    font-size: 18px;
+    color: var(--grey);
+}
+.footer_title{
+    font-size: 30px;
+    color: var(--blue);
+    font-weight: 500;
+}
+.pointers{
+    list-style: none;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.company,.footer_services,.resources{
+    padding-left: 30px;
+    padding-bottom: 0;
+    line-height: 45px;
+    z-index: 3;
+}
+.contact_links{
+    position: relative;
+}
+div.contact_links::after {
+    content: '';
+    position: absolute;
+    background: url('../Assest/Footer/Plant.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 335px;
+    height: 266px;
+    right: -90%;
+    bottom: -10%;
+    z-index: -1;
+}
+.social_links{
+    padding-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.country{
+    position: relative;
+    display: inline-block;
+    border: 2px solid var(--blue);
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown p{
+    font-size: 16px;
+}
+.country:hover .dropdown{
+    display: block;
+}
+
+
+
+
+ 
+
+
+

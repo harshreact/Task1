@@ -1,0 +1,45 @@
+.Appointment{
+    margin-left: 112px;
+    margin-right: 112px;
+    background-color: skyblue;
+    background-color: linear-gradient(right,skyblue,yellow);
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.Book_appointment{
+    display: flex;
+    gap: 500px;
+}
+.Appointment_content{
+    color: var(--white);
+    padding-left: 83px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+.Appointment_content h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: var(--white);
+}
+.Appointment_content p{
+    font-size: 18px;
+    color: var(--white);
+}
+.Abtn{
+    border: none;
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    display: flex;
+}
+.Appointment_btn{
+    align-items: center;
+    padding-left: 10px;
+    text-decoration: none;
+    padding-right: 10px;
+    color: var(--blue);
+    display: flex;
+}
